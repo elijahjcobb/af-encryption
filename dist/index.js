@@ -23,9 +23,9 @@
  *
  */
 Object.defineProperty(exports, "__esModule", { value: true });
-var AFCipher_1 = require("./AFCipher");
-exports.AFCipher = AFCipher_1.AFCipher;
-var AFHash_1 = require("./AFHash");
-exports.AFHash = AFHash_1.AFHash;
-var AFGenerator_1 = require("./AFGenerator");
-exports.AFGenerator = AFGenerator_1.AFGenerator;
+var ECCipher_1 = require("./ECCipher");
+exports.ECCipher = ECCipher_1.ECCipher;
+var ECHash_1 = require("./ECHash");
+exports.ECHash = ECHash_1.ECHash;
+var ECGenerator_1 = require("./ECGenerator");
+exports.ECGenerator = ECGenerator_1.ECGenerator;

@@ -1,6 +1,6 @@
 {
-  "name": "af-encryption",
-  "version": "1.0.3",
+  "name": "@elijahjcobb/encryption",
+  "version": "0.0.1",
   "description": "desc TODO",
   "main": "dist/index",
   "types": "dist/index",
@@ -13,26 +13,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elijahjcobb/af-encryption.git"
+    "url": "git+https://github.com/elijahjcobb/encryption.git"
   },
   "keywords": [],
   "author": "Elijah Cobb <elijah@elijahcobb.com> (https://elijahcobb.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elijahjcobb/af-encryption/issues"
+    "url": "https://github.com/elijahjcobb/encryption/issues"
   },
-  "homepage": "https://github.com/elijahjcobb/af-encryption#readme",
+  "homepage": "https://github.com/elijahjcobb/encryption#readme",
   "dependencies": {
-    "@types/node": "*",
-    "af-error": "^1.0.3",
-    "typescript": "*"
+    "@elijahjcobb/error": "latest",
+    "@types/node": "latest",
+    "typescript": "latest"
   },
   "devDependencies": {
-    "typescript": "*",
-    "tslint": "*",
-    "@types/node": "*"
+    "typescript": "latest",
+    "tslint": "latest",
+    "@types/node": "latest"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

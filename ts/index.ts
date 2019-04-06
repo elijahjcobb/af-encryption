@@ -22,6 +22,6 @@
  *
  */
 
-export { AFCipher } from "./AFCipher";
-export { AFHash } from "./AFHash";
-export { AFGenerator } from "./AFGenerator";
+export { ECCipher } from "./ECCipher";
+export { ECHash } from "./ECHash";
+export { ECGenerator } from "./ECGenerator";
