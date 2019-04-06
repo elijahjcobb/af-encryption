@@ -21,5 +21,6 @@
  * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-export { AFCipher as Cipher } from "./AFCipher";
-export { AFHash as Hash } from "./AFHash";
+export { AFCipher } from "./AFCipher";
+export { AFHash } from "./AFHash";
+export { AFGenerator } from "./AFGenerator";

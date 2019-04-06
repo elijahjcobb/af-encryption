@@ -1,4 +1,3 @@
-"use strict";
 /**
  *
  * Elijah Cobb
@@ -22,10 +21,35 @@
  * OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
  */
-Object.defineProperty(exports, "__esModule", { value: true });
-var AFCipher_1 = require("./AFCipher");
-exports.AFCipher = AFCipher_1.AFCipher;
-var AFHash_1 = require("./AFHash");
-exports.AFHash = AFHash_1.AFHash;
-var AFGenerator_1 = require("./AFGenerator");
-exports.AFGenerator = AFGenerator_1.AFGenerator;
+/**
+ * An abstract class with static helper methods to generate random objects using crypto.
+ */
+export declare class AFGenerator {
+    /**
+     * Generate a randomId with length 16 with lowercase letters, uppercase letters, and numbers.
+     * @return {string} A random string.
+     */
+    static randomId(): string;
+    /**
+     * Generate random file name.
+     * @return {string}
+     */
+    static randomFileName(): string;
+    /**
+     * Generates a random code of length 6 with numbers.
+     * @return {string} A random code.
+     */
+    static randomCode(): string;
+    /**
+     * Generate a random salt.
+     * @return {string} A random salt.
+     */
+    static randomSalt(): string;
+    /**
+     * Generate a random string with specified length and specified characters.
+     * @param {number} length The length of the string.
+     * @param {string} chars The characters available to be used in the string.
+     * @return {string} A random string.
+     */
+    static randomString(length: number, chars?: string): string;
+}

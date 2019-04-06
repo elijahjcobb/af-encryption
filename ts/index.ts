@@ -22,5 +22,6 @@
  *
  */
 
-export { AFCipher as Cipher } from "./AFCipher";
-export { AFHash as Hash } from "./AFHash";
+export { AFCipher } from "./AFCipher";
+export { AFHash } from "./AFHash";
+export { AFGenerator } from "./AFGenerator";
