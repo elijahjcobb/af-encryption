@@ -2,69 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8472822-13bb-4a7e-8f8f-d4a74e04c830" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/af-encryption.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encryption.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/AFCipher.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/AFCipher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/AFGenerator.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/AFGenerator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/AFHash.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/AFHash.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/node/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFCSV.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFCSV.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFEnum.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFEnum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFIterator.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFIterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFObject.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFObject.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFQueue.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFQueue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFSet.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFSet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFStack.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/AFStack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/array/AFArray.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/array/AFArray.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/array/AFArrayList.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/array/AFArrayList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/array/AFArrayable.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/array/AFArrayable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/map/AFDictionary.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/map/AFDictionary.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/map/AFMap.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/map/AFMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/map/AFMappable.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/map/AFMappable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/test.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/dist/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-collections/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-error/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-error/dist/AFError.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-error/dist/AFError.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-error/dist/AFErrorStack.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-error/dist/AFErrorStack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-error/dist/AFErrorTypes.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-error/dist/AFErrorTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-error/dist/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-error/dist/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/af-error/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tslint/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tslint/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/typescript/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/typescript/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/AFCipher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts/ECCipher.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/AFGenerator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts/ECGenerator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/AFHash.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts/ECHash.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ts/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts/index.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -81,8 +19,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="692">
-                <caret line="80" column="119" selection-start-line="80" selection-start-column="119" selection-end-line="80" selection-end-column="119" />
+              <first_editor relative-caret-position="15">
+                <caret line="1" column="103" selection-start-line="1" selection-start-column="103" selection-end-line="1" selection-end-column="103" />
               </first_editor>
               <second_editor />
             </state>
@@ -219,18 +157,18 @@
       <workItem from="1554541132870" duration="13000" />
       <workItem from="1554583460260" duration="5000" />
       <workItem from="1554586018705" duration="269000" />
-      <workItem from="1554589563650" duration="1038000" />
+      <workItem from="1554589563650" duration="1345000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5811000" />
+    <option name="totallyTimeSpent" value="6118000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="949" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26800978" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26800978" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -317,8 +255,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="692">
-            <caret line="80" column="119" selection-start-line="80" selection-start-column="119" selection-end-line="80" selection-end-column="119" />
+          <first_editor relative-caret-position="15">
+            <caret line="1" column="103" selection-start-line="1" selection-start-column="103" selection-end-line="1" selection-end-column="103" />
           </first_editor>
           <second_editor />
         </state>

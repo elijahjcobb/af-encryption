@@ -4,9 +4,9 @@ An encryption package that provides implementations for hashing, ciphers, and ra
 ## Classes
 | Class | Description |
 | --- | --- |
-| `ECCipher` | A class that allows encrypting and decrypting `Buffer` instances with a password and salt. |
-| `ECHash` | A class that allows hashing a buffer using the sha256 algorithm. |
-| `ECGenerator` | A class providing multiple methods to generate random formatted strings. |
+| [`ECCipher`](https://github.com/elijahjcobb/encryption/blob/master/dist/ECCipher.d.ts) | A class that allows encrypting and decrypting `Buffer` instances with a password and salt. |
+| [`ECHash`](https://github.com/elijahjcobb/encryption/blob/master/dist/ECHash.d.ts) | A class that allows hashing a buffer using the sha256 algorithm. |
+| [`ECGenerator`](https://github.com/elijahjcobb/encryption/blob/master/dist/ECGenerator.d.ts) | A class providing multiple methods to generate random formatted strings. |
 
 ## Import
 ```typescript
@@ -82,7 +82,7 @@ let rando: string = ECGenerator.randomString(length, chars);
 
 
 ## TypeScript
-All classes contain TypeScript declaration files. You can also view all the source code or declaration files on GitHub. Each class in the table above links directly to it's declaration file.
+All classes contain TypeScript declaration files. You can also view all the [source code](https://github.com/elijahjcobb/encryption/tree/master/ts) or [declaration files](https://github.com/elijahjcobb/encryption/tree/master/dist) on GitHub. Each class in the table above links directly to it's declaration file.
 
 ## Bugs
-If you find any bugs please create an issue on GitHub or if you are old fashioned email me at elijah@elijahcobb.com.
+If you find any bugs please [create an issue on GitHub](https://github.com/elijahjcobb/encryption/issues) or if you are old fashioned email me at [elijah@elijahcobb.com](mailto:elijah@elijahcobb.com).
