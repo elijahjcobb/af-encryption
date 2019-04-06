@@ -1,7 +1,7 @@
 {
   "name": "@elijahjcobb/encryption",
-  "version": "0.0.2",
-  "description": "desc TODO",
+  "version": "0.0.4",
+  "description": "An encryption package that provides implementations for hashing, ciphers, and random string generation.",
   "main": "dist/index",
   "types": "dist/index",
   "scripts": {
@@ -15,7 +15,19 @@
     "type": "git",
     "url": "git+https://github.com/elijahjcobb/encryption.git"
   },
-  "keywords": [],
+  "keywords": [
+    "cipher",
+    "encryption",
+    "decipher",
+    "sha",
+    "256",
+    "sha256",
+    "hash",
+    "generate",
+    "generator",
+    "random",
+    "buffer"
+  ],
   "author": "Elijah Cobb <elijah@elijahcobb.com> (https://elijahcobb.com/)",
   "license": "MIT",
   "bugs": {
