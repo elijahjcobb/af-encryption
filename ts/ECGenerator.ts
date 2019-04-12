@@ -22,10 +22,23 @@
  *
  */
 
+import Cryptography = require("crypto");
+
 /**
  * An abstract class with static helper methods to generate random objects using crypto.
  */
 export class ECGenerator {
+
+	/**
+	 * Generate random bytes of length.
+	 * @param {number} length The amount of bytes.
+	 * @return {Buffer} A buffer.
+	 */
+	public static randomBytes(length: number): Buffer {
+
+		return Cryptography.randomBytes(length);
+
+	}
 
 	/**
 	 * Generate a randomId with length 16 with lowercase letters, uppercase letters, and numbers.

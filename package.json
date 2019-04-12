@@ -1,6 +1,6 @@
 {
   "name": "@elijahjcobb/encryption",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "An encryption package that provides implementations for hashing, ciphers, and random string generation.",
   "main": "dist/index",
   "types": "dist/index",
@@ -35,9 +35,7 @@
   },
   "homepage": "https://github.com/elijahjcobb/encryption#readme",
   "dependencies": {
-    "@elijahjcobb/error": "latest",
-    "@types/node": "latest",
-    "typescript": "latest"
+    "@elijahjcobb/error": "latest"
   },
   "devDependencies": {
     "typescript": "latest",

@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8472822-13bb-4a7e-8f8f-d4a74e04c830" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ECCipher.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ECCipher.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ECCipher.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ECCipher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ECGenerator.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ECGenerator.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ECGenerator.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/ECGenerator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/ECCipher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts/ECCipher.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ts/ECGenerator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ts/ECGenerator.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,14 +52,15 @@
         <option value="$PROJECT_DIR$/ts/AFHash.ts" />
         <option value="$PROJECT_DIR$/ts/AFGenerator.ts" />
         <option value="$PROJECT_DIR$/ts/index.ts" />
-        <option value="$PROJECT_DIR$/ts/ECCipher.ts" />
         <option value="$PROJECT_DIR$/ts/ECHash.ts" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/ts/ECGenerator.ts" />
+        <option value="$PROJECT_DIR$/ts/ECCipher.ts" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="949" />
@@ -65,7 +73,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,6 +89,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,17 +153,21 @@
       <workItem from="1554541132870" duration="13000" />
       <workItem from="1554583460260" duration="5000" />
       <workItem from="1554586018705" duration="269000" />
-      <workItem from="1554589563650" duration="2157000" />
+      <workItem from="1554589563650" duration="2204000" />
+      <workItem from="1554840910573" duration="11000" />
+      <workItem from="1554842095988" duration="118000" />
+      <workItem from="1554842247808" duration="2000" />
+      <workItem from="1554956259955" duration="171000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6930000" />
+    <option name="totallyTimeSpent" value="7279000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="949" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26800978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2802198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -170,7 +182,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.32788798" />
       <window_info anchor="bottom" id="Statistic" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.5320887" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.53163266" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -204,17 +216,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ts/ECCipher.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1331">
-          <caret line="69" column="91" selection-start-line="69" selection-start-column="91" selection-end-line="69" selection-end-column="91" />
-          <caret line="93" column="91" selection-start-line="93" selection-start-column="91" selection-end-line="93" selection-end-column="91" />
-          <folding>
-            <element signature="n#Cryptography#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ts/ECHash.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -222,13 +223,6 @@
           <folding>
             <element signature="n#Crypto#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ts/ECGenerator.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="75" column="30" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -244,8 +238,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="435">
+          <caret line="29" column="4" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts/ECGenerator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ts/ECCipher.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+          <folding>
+            <element signature="n#Cryptography#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

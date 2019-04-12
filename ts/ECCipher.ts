@@ -33,18 +33,15 @@ export class ECCipher {
 
 	private readonly iv: Buffer = Buffer.alloc(16, 0);
 	private readonly algo: string = "aes-256-cbc";
-	private readonly salt: string;
 	private readonly password: Buffer;
 
 	/**
 	 * Create a new ECCipher instance.
 	 * @param {string} password A password used to encrypt data.
-	 * @param {string} salt An optional salt. Use for greater security.
 	 */
-	public constructor(password: string, salt?: string) {
+	public constructor(password: Buffer) {
 
-		this.password = Buffer.from(password, "utf8");
-		this.salt = salt || "";
+		this.password = password;
 
 	}
 
@@ -57,7 +54,7 @@ export class ECCipher {
 
 		try {
 
-			const key: Buffer = Cryptography.scryptSync(this.password, this.salt, 32);
+			const key: Buffer = Cryptography.scryptSync(this.password, "", 32);
 			const cipher: Cryptography.Cipher = Cryptography.createCipheriv(this.algo, key, this.iv);
 
 			let encrypted: string = cipher.update(data.toString("binary"), "binary", "hex");
@@ -82,7 +79,7 @@ export class ECCipher {
 
 		try {
 
-			const key: Buffer = Cryptography.scryptSync(this.password, this.salt, 32);
+			const key: Buffer = Cryptography.scryptSync(this.password, "", 32);
 			const decipher: Cryptography.Decipher = Cryptography.createDecipheriv(this.algo, key, this.iv);
 			let decrypted: string = decipher.update(data, undefined, "utf8");
 			decrypted += decipher.final("utf8");
